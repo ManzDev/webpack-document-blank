@@ -1,0 +1,30 @@
+@import './css/fonts.css';
+@import './css/vars.css';
+
+body {
+  background: var(--background-color);
+  font-family: var(--normal-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font);
+}
+
+#app {
+  width: 800px;
+  margin: auto;
+
+  & h1 {
+    text-align: center;
+    color: var(--text-color);
+  }
+
+  & img {
+    max-width: 100%;
+  }
+}

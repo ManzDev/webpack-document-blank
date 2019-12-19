@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "indentation": 2,
+    "selector-nested-pattern": "^&",
+    "custom-property-empty-line-before": null
+  }
+}
